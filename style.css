@@ -1,0 +1,119 @@
+body{
+
+    background-image: url(../3-column-preview-card-component-main/images/8bit_wallpaper18.jpg);
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    font-family: 'VT323', monospace;  
+    color: #f3f3f3;
+    font-size: 18px;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 30px;
+    background-color: #201f22;
+}
+
+.cartoes {
+    background-color: #070d12;
+    width: 370px;
+    border: 2px solid #e126d9;
+    border-radius: 10px;
+    overflow: hidden;
+
+}
+
+.primeiro-cartao1 {
+    background-color: #da6946;
+    width: 370px;
+    border: 2px solid #e126d9;
+    border-radius: 10px;
+    overflow: hidden;
+
+
+}
+
+.segundo-cartao2 {
+    background-color: #d43bcd;
+    width: 370px;
+    border: 2px solid #e126d9;
+    border-radius: 10px;
+    overflow: hidden;
+
+}
+
+.terceiro-cartao3 {
+    background-color: #654bd4;
+    width: 370px;
+    border: 2px solid #e126d9;
+    border-radius: 10px;
+    overflow: hidden;
+
+}
+
+.primeiro-cartao1 .botao {
+
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    max-height: 80px;
+    overflow-y: auto;
+    width: 100px;
+    display: block;
+    color: #f3f3f3;
+    text-align: center;
+    padding: 3px;
+    font-size: 15px;
+    transition: opacity 0.3s;
+    border: 3px solid #a570a1;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.segundo-cartao2 .botao {
+
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    max-height: 80px;
+    overflow-y: auto;
+    width: 100px;
+    display: block;
+    color: #f3f3f3;
+    text-align: center;
+    padding: 3px;
+    font-size: 15px;
+    transition: opacity 0.3s;
+    border: 3px solid #553669;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+
+.terceiro-cartao3 .botao {
+
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    max-height: 80px;
+    overflow-y: auto;
+    width: 100px;
+    display: block;
+    color: #f3f3f3;
+    text-align: center;
+    padding: 3px;
+    font-size: 15px;
+    transition: opacity 0.3s;
+    border: 3px solid #c92463;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.botao  a:hover {
+    opacity: 0.8;
+}
+
